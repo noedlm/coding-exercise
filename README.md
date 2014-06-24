@@ -16,7 +16,7 @@ and a [PSD](AwesomeBands.psd) to use as a mockup.
 
 ## Requirements
 
-You will be building an "Awesome Bands" leaderboard, which is a list of awesome band names paired with the number of times that those bands have been mentioned on Twitter.
+You will be building an "Awesome Bands" leaderboard, which is a list of the top five awesome band names paired with the number of times that those bands have been mentioned on Twitter.
 
 For simplicity's sake, we've stubbed out an API interface and polling functionality within a library (see [lib.js](js/lib.js)). The library provides a `Poller()` class that allows you to create a poller, setting some options and providing a callback function that will be called when the poller returns data. It also has a `.start()` method that will start the poller.
 
